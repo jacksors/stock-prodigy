@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './Navigation';
 import Home from './Home';
 import News from './News';
+import { auth, db } from '../utils/firebase';
 
 import BuySell from './BuySell';
 

@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  /* background-color: #282c34; */
+  background-color: #111827;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(3px + 2vmin);
+  color: white;
+}
+
+.tabs {
+  min-height: 8vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4px + 2vmin);
+  color: white;
+}
+
+.tab {
+  font-size: medium;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  color: inherit;
+  text-decoration: none;
+}
+
+.BuySell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.chartContainer {
+  width: 675px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

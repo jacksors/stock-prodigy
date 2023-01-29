@@ -1,70 +1,15 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Stock Prodigy Logo](https://imgur.com/S2AMvdK.png)
+## Inspiration
+We were inspired by apps and tools that try to gamify normally mundane personal finance tasks such as budgeting and credit score improvement and want to bring that idea to stock trading in a risk-free way. Furthermore, we believe that simulated stock trading is even more fun with friends, so we brought some social networking and competition ideas to our project.
+## What it does
+Stock Prodigy is much more than just a trading simulator; it's an opportunity to learn about how to trade stocks while participating in fun and engaging challenges and competing with friends and family. You can learn about the fundamentals of picking good stocks and see how your decisions play out in real time. Stock Prodigy also has a rewards system designed to build good trading habits, such as always doing due diligence and holding for the long term!
+## How we built it
+Stock Prodigy is built on a fairly simple tech stack of a React frontend and a Firebase backend handling authentication and storage. Styling was done using react-bootstrap and a few Mantine components. Stock information is pulled using the alphavantage API.
+## Challenges we ran into
+One of our biggest challenges was figuring out how to manage the many states an app like this has, such as authentication and other user information. We are still new to web development, so much of the development process was trial and error in seeing what worked and what didn't.
+## Accomplishments that we're proud of
+We are most proud of the social aspects of Stock Prodigy. Trading simulators have been done plenty before, but we believe integrating social and educational aspects into such a product is a very unique solution.
+## What we learned
+The importance of good planning! Through the trial and error process of building Stock Prodigy, we ended up with a fairly messy codebase at the end which slowed us down some. While small part of this was almost certainly inescapable, good planning from the start would have helped to minimize these largely avoidable problems.
+## What's next for Stock Prodigy
+We would like to expand on the social features by offering group challenges with interesting prompts, such as seeing who can navigate a simulated recession the best, and enabling more profile customizability. Furthermore, we would like to extend the features of the trading simulator to include more features such as options and dividends. Since this app was only built in 24 hours, lots of bug squashing is also in order.

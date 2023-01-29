@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Stock Prodigy",
+  "name": "Stock Prodigy",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,29 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "DiversifiedPortfolio.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "496x606"
     },
     {
-      "src": "logo512.png",
+      "src": "HighYield.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "496x606"
+    },
+    {
+      "src": "PEs.png",
+      "type": "image/png",
+      "sizes": "496x606"
+    },
+    {
+      "src": "Research.png",
+      "type": "image/png",
+      "sizes": "496x606"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "496x606"
     }
   ],
   "start_url": ".",
